@@ -18,7 +18,7 @@ const categoriesData = [
         thumbnail : "headphones.jpg"
     }
 ]
-
+ 
 const seedCategories = async() =>{
     try{
       console.log("Seeding Categories")

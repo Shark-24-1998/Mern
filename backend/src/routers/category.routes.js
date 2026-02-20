@@ -6,4 +6,4 @@ const router = express.Router();
 router.get("/", getAllCategories);
 router.get("/:slug", getCategoryBySlug)
 
-export default router;
+export default router; 

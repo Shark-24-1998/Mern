@@ -3,6 +3,7 @@ import Root from "./layouts/Root";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Product from "./pages/product";
+import ProductDetail from "./pages/productDetail";
 
 
 const router = createBrowserRouter([
@@ -12,7 +13,8 @@ const router = createBrowserRouter([
   children:[
     {index: true , Component:Home},
     {path : 'about', Component : About},
-    {path : 'product', Component : Product}
+    {path : 'product', Component : Product},
+    {path : '/products/:slug', Component : ProductDetail}
   ]
 
 }

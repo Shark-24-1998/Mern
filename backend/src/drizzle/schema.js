@@ -20,7 +20,7 @@ export const products = mysqlTable("products", {
   name: varchar("name", { length: 200 }).notNull(),
 
   slug: varchar("slug", { length: 200 }).notNull().unique(),
-
+ 
   description: varchar("description", { length: 500 }),
 
   longDescription: text("long_description"),

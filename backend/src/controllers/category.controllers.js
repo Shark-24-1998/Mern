@@ -11,7 +11,7 @@ export const getAllCategories = async(req, res) =>{
             count : data.length,
             data
         })
-
+ 
     }catch(error){
         console.error("Error Fetching categories", error)
 
